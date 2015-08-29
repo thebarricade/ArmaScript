@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>content</key>
+        <string>// =========================================================================================================
+//  ${1:scriptname}  
+//  Version: 1.0 
+//  Author: ${2:author}
+// ---------------------------------------------------------------------------------------------------------
+//  Required parameters:
+//    unit        = unit to affect (1st argument)
+//    (e.g. nul=[this] execVM "script.sqf")
+//
+//  Optional parameters: 
+//    paramname1      = description
+//    paramname2      = description
+//    paramname3      = description
+//
+// =========================================================================================================
+
+if (!isServer) exitWith {};
+
+// basic error checking
+_minimumparams = ${3:1};
+if ((count _this) &lt; _minimumparams) exitWith {
+	hint "You need to specify some parameters";
+};
+
+// convert argument list to uppercase
+_UCthis = [];
+for [{_i=0},{_i&lt;count _this},{_i=_i+1}] do {_e=_this select _i; if (typeName _e=="STRING") then {_e=toUpper(_e)};_UCthis set [_i,_e]};
+
+// =========================================================================================================
+
+${0:/* code */}
+</string>
+        <key>name</key>
+        <string>Basic SQF structure</string>
+        <key>tabTrigger</key>
+        <string>sqf</string>
+        <key>uuid</key>
+        <string>91F85A9C-5BFF-4FEE-AB7A-CC2428EEF228</string>
+        <key>scope</key>
+        <string></string>
+    </dict>
+</plist>

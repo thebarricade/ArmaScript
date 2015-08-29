@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>BSD</string>
+        <key>uuid</key>
+        <string>7A4B57AB-BF82-4A82-9860-FC52BEC4C8F8</string>
+        <key>tabTrigger</key>
+        <string>bsd</string>
+        <key>content</key>
+        <string>// ****************************************************************************
+// By:			$TBR_ARMA2_URL, `date +%Y`
+// License:		BSD
+// 				http://creativecommons.org/licenses/BSD/
+// ****************************************************************************
+</string>
+        <key>scope</key>
+        <string></string>
+    </dict>
+</plist>

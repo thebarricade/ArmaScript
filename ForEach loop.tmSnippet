@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>ForEach loop</string>
+        <key>uuid</key>
+        <string>77709701-D204-45E8-BDAD-441886D90330</string>
+        <key>tabTrigger</key>
+        <string>foreach</string>
+        <key>content</key>
+        <string>{
+	${0:/* code */};
+} forEach ${1:/* variable */};</string>
+        <key>scope</key>
+        <string></string>
+    </dict>
+</plist>

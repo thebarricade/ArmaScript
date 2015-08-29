@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>GetVariable</string>
+        <key>uuid</key>
+        <string>6573B139-69AA-4780-992F-5F8610DDD554</string>
+        <key>content</key>
+        <string>_${1:variable} = if (isNil {${2:object} getVariable "${1:variable}"}) then {${3:objnull}} else {${2:object} getVariable "${1:variable}"};
+${2:object} setVariable ["${1:variable}",_${1:variable},true];
+</string>
+        <key>scope</key>
+        <string></string>
+        <key>tabTrigger</key>
+        <string>getvar</string>
+    </dict>
+</plist>

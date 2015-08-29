@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>Format</string>
+        <key>uuid</key>
+        <string>C559CB5A-F1E3-4C1C-9DB5-72B012D8BBB6</string>
+        <key>tabTrigger</key>
+        <string>format</string>
+        <key>content</key>
+        <string>format[ "%1", ${1:/* variable */}];</string>
+    </dict>
+</plist>

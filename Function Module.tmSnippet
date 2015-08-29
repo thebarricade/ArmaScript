@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>Function Module</string>
+        <key>uuid</key>
+        <string>7D8F62F4-CA58-45B0-86E9-72F88EC1A348</string>
+        <key>content</key>
+        <string>if (isnil "bis_fnc_init") then {
+	_logicGrp = createGroup sideLogic;
+	_logicFnc = _logicGrp createunit ["FunctionsManager",[0,0,0],[],0,"none"];
+};
+waituntil {BIS_fnc_init};
+</string>
+        <key>scope</key>
+        <string></string>
+        <key>tabTrigger</key>
+        <string>fnc</string>
+    </dict>
+</plist>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>name</key>
+        <string>Switch</string>
+        <key>uuid</key>
+        <string>27288784-A326-44E3-B590-36087A1B2C31</string>
+        <key>tabTrigger</key>
+        <string>switch</string>
+        <key>content</key>
+        <string>_return = switch( ${1:/*variable*/} ) do {
+	case ${2:/*case*/}: {
+		${0:/*code*/};
+	};
+	default {
+	};
+};
+</string>
+    </dict>
+</plist>
